@@ -32,8 +32,8 @@ const client14 = new Discord14.Client();
 const client15 = new Discord15.Client();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "515501341905256450"; 
-var ChannelID = "515543913038086165";
+var ServerID = "525661304736710668"; 
+var ChannelID = "525965490040995850";
 var prefix = "M";
 console.log('Bots. Is. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -127,36 +127,7 @@ client15.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
     });
-client16.on('ready', () => {
-    function timerFunc() {
-        client16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client17.on('ready', () => {
-    function timerFunc() {
-        client17.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client18.on('ready', () => {
-    function timerFunc() {
-        client18.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client19.on('ready', () => {
-    function timerFunc() {
-        client19.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client20.on('ready', () => {
-    function timerFunc() {
-        client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
@@ -597,3 +568,12 @@ client12.login(process.env.BOT12);
 client13.login(process.env.BOT13);
 client14.login(process.env.BOT14);
 client15.login(process.env.BOT15);
+"NTI1NjY2MDMxODI2NTAxNzAx.Dv59BA.rsvPa2ZwU6SbfnuTv9UNGTk_f50"
+"NTI1NjY3Njk0OTgxMjgzODcx.Dv5-Gg.SDmTwjBmbpRE9WiTVMVYiXvUoO8"
+"NTI1NjY4NzU0NDIwNDAwMTMw.Dv5-3w.28Akp72TeGQFIXJgi6MG0bfsDs8"
+"NTI1NjcwMzI4MzQ1NTU5MDUw.Dv6Apw.5UUkCbyZh8ZkTNfnXOx765qUcJE"
+"NTI1NjY5MDQ1NDIxNDczODQy.Dv6AEA.xB0LoRgzdDEmy5zN7AYG0JG9Ybw"
+"NTI1NjcxMjUxMDU0NjkwMzA5.Dv6Baw.F6aUg50yzfx_MsQlMx7zMPOSXVM"
+"NDM0NjQ2NTg3NDMyNzYzMzk4.DsCJjA.N1fJDjaBa6L48A2sGaK2hvOnJrM"
+"NTA0MzUwODgyNDQ0MzQ1MzQ2.DsB-cg.WxTuCwa9I08UowGzohOk_R4WXrg"
+"NTAxODUwNDY4NzIxMzYwODk3.DsE76g.Y1GKz4K4wNFX9aU8dyp-5Tajmqc"
