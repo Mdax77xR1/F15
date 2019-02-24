@@ -41,9 +41,9 @@ const client18 = new Discord18.Client();
 const client19 = new Discord19.Client();
 const client20 = new Discord20.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "515501341905256450"; 
-var ChannelID = "515543913038086165";
-var prefix = "W";
+var ServerID = "525661304736710668"; 
+var ChannelID = "527439707081015317";
+var prefix = "M";
 console.log('Bots. Is. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {  
