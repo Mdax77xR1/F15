@@ -1,1694 +1,752 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
-const D1 = require('discord.js');
-const D2 = require('discord.js');
-const D3 = require('discord.js');
-const D4 = require('discord.js');
-const D5 = require('discord.js');
-const D6 = require('discord.js');
-const D7 = require('discord.js');
-const D8 = require('discord.js');
-const D9 = require('discord.js');
-const D10 = require('discord.js');
-const D11 = require('discord.js');
-const D12 = require('discord.js');
-const D13 = require('discord.js');
-const D14 = require('discord.js');
-const D15 = require('discord.js');
-const D16 = require('discord.js');
-const D17 = require('discord.js');
-const D18 = require('discord.js');
-const D19 = require('discord.js');
-const D20 = require('discord.js');
-const D21 = require('discord.js');
-const D22 = require('discord.js');
-const D23 = require('discord.js');
-const D24 = require('discord.js');
-const D25 = require('discord.js');
-const D26 = require('discord.js');
-const D27 = require('discord.js');
-const D28 = require('discord.js');
-const D29 = require('discord.js');
-const D30 = require('discord.js');
+const Discord1 = require('discord.js');
+const Discord2 = require('discord.js');
+const Discord3 = require('discord.js');
+const Discord4 = require('discord.js');
+const Discord5 = require('discord.js');
+const Discord6 = require('discord.js');
+const Discord7 = require('discord.js');
+const Discord8 = require('discord.js');
+const Discord9 = require('discord.js');
+const Discord10 = require('discord.js');
+const Discord11 = require('discord.js');
+const Discord12 = require('discord.js');
+const Discord13 = require('discord.js');
+const Discord14 = require('discord.js');
+const Discord15 = require('discord.js');
+const Discord16 = require('discord.js');
+const Discord17 = require('discord.js');
+const Discord18 = require('discord.js');
+const Discord19 = require('discord.js');
+const Discord20 = require('discord.js');
 //////////////////////////////////////////////////////////////////////////////////////////////////
-const p1 = new D1.Client();
-const p2 = new D2.Client();
-const p3 = new D3.Client();
-const p4 = new D4.Client();
-const p5 = new D5.Client();
-const p6 = new D6.Client();
-const p7 = new D7.Client();
-const p8 = new D8.Client();
-const p9 = new D9.Client();
-const p10 = new D10.Client();
-const p11 = new D11.Client();
-const p12 = new D12.Client();
-const p13 = new D13.Client();
-const p14 = new D14.Client();
-const p15 = new D15.Client();
-const p16 = new D16.Client();
-const p17 = new D17.Client();
-const p18 = new D18.Client();
-const p19 = new D19.Client();
-const p20 = new D20.Client();
-const p21 = new D21.Client();
-const p22 = new D22.Client();
-const p23 = new D23.Client();
-const p24 = new D24.Client();
-const p25 = new D25.Client();
-const p26 = new D26.Client();
-const p27 = new D27.Client();
-const p28 = new D28.Client();
-const p29 = new D29.Client();
-const p30 = new D30.Client();
+const client1 = new Discord1.Client();
+const client2 = new Discord2.Client();
+const client3 = new Discord3.Client();
+const client4 = new Discord4.Client();
+const client5 = new Discord5.Client();
+const client6 = new Discord6.Client();
+const client7 = new Discord7.Client();
+const client8 = new Discord8.Client();
+const client9 = new Discord9.Client();
+const client10 = new Discord10.Client();
+const client11 = new Discord11.Client();
+const client12 = new Discord12.Client();
+const client13 = new Discord13.Client();
+const client14 = new Discord14.Client();
+const client15 = new Discord15.Client();
+const client16 = new Discord16.Client();
+const client17 = new Discord17.Client();
+const client18 = new Discord18.Client();
+const client19 = new Discord19.Client();
+const client20 = new Discord20.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "525661304736710668";
-var ChannelID = "527441830661586945";
-var prefix = "M";
-console.log('MeeRcY , Code.');
+var ServerID = "515501341905256450"; 
+var ChannelID = "515543913038086165";
+var prefix = "W";
+console.log('Bots. Is. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on('ready', () => {  
+client1.on('ready', () => {  
     function timerFunc() {
-        p1.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client1.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p2.on('ready', () => {
+client2.on('ready', () => {
     function timerFunc() {
-        p2.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client2.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p3.on('ready', () => {
+client3.on('ready', () => {
     function timerFunc() {
-        p3.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client3.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p4.on('ready', () => {
+client4.on('ready', () => {
     function timerFunc() {
-        p4.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client4.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p5.on('ready', () => {
+client5.on('ready', () => {
     function timerFunc() {
-        p5.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client5.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p6.on('ready', () => {
+client6.on('ready', () => {
     function timerFunc() {
-        p6.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client6.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p7.on('ready', () => {
+client7.on('ready', () => {
     function timerFunc() {
-        p7.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client7.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p8.on('ready', () => {
+client8.on('ready', () => {
     function timerFunc() {
-        p8.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client8.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p9.on('ready', () => {
+client9.on('ready', () => {
     function timerFunc() {
-        p9.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client9.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p10.on('ready', () => {
+client10.on('ready', () => {
     function timerFunc() {
-        p10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p11.on('ready', () => {  
+client11.on('ready', () => {  
     function timerFunc() {
-        p11.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client11.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p12.on('ready', () => {
+client12.on('ready', () => {
     function timerFunc() {
-        p12.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client12.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p13.on('ready', () => {
+client13.on('ready', () => {
     function timerFunc() {
-        p13.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client13.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p14.on('ready', () => {
+client14.on('ready', () => {
     function timerFunc() {
-        p14.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client14.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p15.on('ready', () => {
+client15.on('ready', () => {
     function timerFunc() {
-        p15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p16.on('ready', () => {
+client16.on('ready', () => {
     function timerFunc() {
-        p16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p17.on('ready', () => {
+client17.on('ready', () => {
     function timerFunc() {
-        p17.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client17.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p18.on('ready', () => {
+client18.on('ready', () => {
     function timerFunc() {
-        p18.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client18.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p19.on('ready', () => {
+client19.on('ready', () => {
     function timerFunc() {
-        p19.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client19.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-p20.on('ready', () => {
+client20.on('ready', () => {
     function timerFunc() {
-        p20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p21.on('ready', () => {
-    function timerFunc() {
-        p21.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p22.on('ready', () => {
-    function timerFunc() {
-        p22.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p23.on('ready', () => {
-    function timerFunc() {
-        p23.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p24.on('ready', () => {
-    function timerFunc() {
-        p24.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p25.on('ready', () => {
-    function timerFunc() {
-        p25.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p26.on('ready', () => {
-    function timerFunc() {
-        p26.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p27.on('ready', () => {
-    function timerFunc() {
-        p27.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p28.on('ready', () => {
-    function timerFunc() {
-        p28.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p29.on('ready', () => {
-    function timerFunc() {
-        p29.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-p30.on('ready', () => {
-    function timerFunc() {
-        p30.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on('message', message => {
+client1.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '1') {
+    if(message.content.toLowerCase().split(' ')[0] == '1s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p2.on('message', message => {
+client2.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '2') {
+    if(message.content.toLowerCase().split(' ')[0] == '2s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p3.on('message', message => {
+client3.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '3') {
+    if(message.content.toLowerCase().split(' ')[0] == '3s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p4.on('message', message => {
+client4.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '4') {
+    if(message.content.toLowerCase().split(' ')[0] == '4s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p5.on('message', message => {
+client5.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '5') {
+    if(message.content.toLowerCase().split(' ')[0] == '5s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p6.on('message', message => {
+client6.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '6') {
+    if(message.content.toLowerCase().split(' ')[0] == '6s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p7.on('message', message => {
+client7.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '7') {
+    if(message.content.toLowerCase().split(' ')[0] == '7s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p8.on('message', message => {
+client8.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '8') {
+    if(message.content.toLowerCase().split(' ')[0] == '8s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p9.on('message', message => {
+client9.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '9') {
+    if(message.content.toLowerCase().split(' ')[0] == '9s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p10.on('message', message => {
+client10.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '10') {
+    if(message.content.toLowerCase().split(' ')[0] == '10s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p11.on('message', message => {
+client11.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '11') {
+    if(message.content.toLowerCase().split(' ')[0] == '11s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p12.on('message', message => {
+client12.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '12') {
+    if(message.content.toLowerCase().split(' ')[0] == '12s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p13.on('message', message => {
+client13.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '13') {
+    if(message.content.toLowerCase().split(' ')[0] == '13s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p14.on('message', message => {
+client14.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '14') {
+    if(message.content.toLowerCase().split(' ')[0] == '14s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p15.on('message', message => {
+client15.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '15') {
+    if(message.content.toLowerCase().split(' ')[0] == '15s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p16.on('message', message => {
+client16.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '16') {
+    if(message.content.toLowerCase().split(' ')[0] == '16s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p17.on('message', message => {
+client17.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '17') {
+    if(message.content.toLowerCase().split(' ')[0] == '17s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p18.on('message', message => {
+client18.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '18') {
+    if(message.content.toLowerCase().split(' ')[0] == '18s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p19.on('message', message => {
+client19.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '19') {
+    if(message.content.toLowerCase().split(' ')[0] == '19s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p20.on('message', message => {
+client20.on('message', message => {
     if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '20') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p21.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '21') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p22.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '22') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p23.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '23') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p24.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '24') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p25.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '25') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p26.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '26') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p27.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '27') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p28.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '28') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p29.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '29') {
-        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
-        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
-    }
-});
-p30.on('message', message => {
-    if(message.author.id !== '335484868479811584') return;
-    if(message.content.toLowerCase().split(' ')[0] == '30') {
+    if(message.content.toLowerCase().split(' ')[0] == '20s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on("message", message => {
-      if (message.author.bot) return;
+client1.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client2.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client3.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client4.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client5.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client6.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client7.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client8.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client9.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client10.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client11.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client12.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client13.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client14.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client15.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client16.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client17.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client18.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client19.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+client20.on('message', message => {
+    if(message.author.id !== '335484868479811584') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
+});
+/////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p2.on("message", message => {
-      if (message.author.bot) return;
+client2.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p3.on("message", message => {
-      if (message.author.bot) return;
+client3.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p4.on("message", message => {
-      if (message.author.bot) return;
+client4.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p5.on("message", message => {
-      if (message.author.bot) return;
+client5.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p6.on("message", message => {
-      if (message.author.bot) return;
+client6.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p7.on("message", message => {
-      if (message.author.bot) return;
+client7.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p8.on("message", message => {
-      if (message.author.bot) return;
+client8.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p9.on("message", message => {
-      if (message.author.bot) return;
+client9.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p10.on("message", message => {
-      if (message.author.bot) return;
+client10.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p11.on("message", message => {
-      if (message.author.bot) return;
+client11.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p12.on("message", message => {
-      if (message.author.bot) return;
+client12.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p13.on("message", message => {
-      if (message.author.bot) return;
+client13.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p14.on("message", message => {
-      if (message.author.bot) return;
+client14.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p15.on("message", message => {
-      if (message.author.bot) return;
+client15.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p16.on("message", message => {
-      if (message.author.bot) return;
+client16.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p17.on("message", message => {
-      if (message.author.bot) return;
+client17.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p18.on("message", message => {
-      if (message.author.bot) return;
+client18.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p19.on("message", message => {
-      if (message.author.bot) return;
+client19.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
-p20.on("message", message => {
-      if (message.author.bot) return;
+client20.on("message", message => {
+          if (message.author.bot) return;
       if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('#rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
-}
-});
-p21.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p22.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p23.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p24.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p25.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p26.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p27.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p28.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p29.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-p30.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "335484868479811584") return message.reply(' ').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
+message.channel.send('->rep <@!335484868479811584>').then(s => {
 s.delete(3000);
 });
 }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on('ready', () => {
-p1.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p2.on('ready', () => {
-p2.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p3.on('ready', () => {
-p3.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p4.on('ready', () => {
-p4.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p5.on('ready', () => {
-p5.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p6.on('ready', () => {
-p6.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p7.on('ready', () => {
-p7.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p8.on('ready', () => {
-p8.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p9.on('ready', () => {
-p9.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p10.on('ready', () => {
-p10.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p11.on('ready', () => {
-p11.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p12.on('ready', () => {
-p12.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p13.on('ready', () => {
-p13.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p14.on('ready', () => {
-p14.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p15.on('ready', () => {
-p15.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p16.on('ready', () => {
-p16.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p17.on('ready', () => {
-p17.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p18.on('ready', () => {
-p18.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p19.on('ready', () => {
-p19.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p20.on('ready', () => {
-p20.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p21.on('ready', () => {
-p21.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p22.on('ready', () => {
-p22.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p23.on('ready', () => {
-p23.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p24.on('ready', () => {
-p24.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p25.on('ready', () => {
-p25.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p26.on('ready', () => {
-p26.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p27.on('ready', () => {
-p27.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p28.on('ready', () => {
-p28.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p29.on('ready', () => {
-p29.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-p30.on('ready', () => {
-p30.user.setActivity("Meeeeeeeeercy.",{type: 'PLAYING'})
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p2.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p3.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p4.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p5.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p6.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p7.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p8.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p9.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p10.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p11.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p12.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p13.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p14.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p15.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p16.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p17.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p18.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p19.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p20.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p21.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p22.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p23.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p24.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p25.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p26.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p27.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p28.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p29.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-p30.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "d")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#daily').then(s => {
-s.delete(3000);
-});
-message.channel.send('->daily <@!335484868479811584>').then(s => {
-s.delete(3000);
-});
-}
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-p1.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p2.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p3.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p4.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p5.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p6.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p7.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p8.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p9.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p10.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p11.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p12.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p13.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p14.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p15.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p16.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p17.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p18.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p19.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p20.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p21.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p22.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p23.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p24.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p25.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p26.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p27.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p28.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p29.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-p30.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "cr")) {
-message.delete(3000);
-if(message.author.id !== "335484868479811584") return message.reply('').then(msg => msg.delete(3000));
-message.channel.send('#credit').then(s => {
-s.delete(3000);
-});
-}
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-p1.login(process.env.BOT1);
-p2.login(process.env.BOT2);
-p3.login(process.env.BOT3);
-p4.login(process.env.BOT4);
-p5.login(process.env.BOT5);
-p6.login(process.env.BOT6);
-p7.login(process.env.BOT7);
-p8.login(process.env.BOT8);
-p9.login(process.env.BOT9);
-p10.login(process.env.BOT10);
-p11.login(process.env.BOT11);
-p12.login(process.env.BOT12);
-p13.login(process.env.BOT13);
-p14.login(process.env.BOT14);
-p15.login(process.env.BOT15);
-p16.login(process.env.BOT16);
-p17.login(process.env.B17);
-p18.login(process.env.B18);
-p19.login(process.env.B19);
-p20.login(process.env.B20);
-p21.login(process.env.B21);
-p22.login(process.env.B22);
-p23.login(process.env.B23);
-p24.login(process.env.B24);
-p25.login(process.env.B25);
-p26.login(process.env.B26);
-p27.login(process.env.B27);
-p28.login(process.env.B28);
-p29.login(process.env.B29);
-p30.login(process.env.B30);
+client1.login(process.env.BOT1);
+client2.login(process.env.BOT2);
+client3.login(process.env.BOT3);
+client4.login(process.env.BOT4);
+client5.login(process.env.BOT5);
+client6.login(process.env.BOT6);
+client7.login(process.env.BOT7);
+client8.login(process.env.BOT8);
+client9.login(process.env.BOT9);
+client10.login(process.env.BOT10);
+client11.login(process.env.BOT11);
+client12.login(process.env.BOT12);
+client13.login(process.env.BOT13);
+client14.login(process.env.BOT14);
+client15.login(process.env.BOT15);
+client16.login(process.env.BOT16);
+client17.login(process.env.BOT17);
+client18.login(process.env.BOT18);
+client19.login(process.env.BOT19);
+client20.login(process.env.BOT20);
