@@ -61,10 +61,10 @@ const p28 = new D28.Client();
 const p29 = new D29.Client();
 const p30 = new D30.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "525661304736710668"; 
-var ChannelID = "551032154465763340";
-var prefix = "M";
-console.log('MeeRcY , Code.');
+var ServerID = "700823567130034236"; 
+var ChannelID = "701792857182306335";
+var prefix = "x";
+console.log('xR1 , Code.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on('ready', () => {  
     function timerFunc() {
@@ -820,94 +820,94 @@ s.delete(3000);
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on('ready', () => {
-p1.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p1.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p2.on('ready', () => {
-p2.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p2.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p3.on('ready', () => {
-p3.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p3.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p4.on('ready', () => {
-p4.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p4.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p5.on('ready', () => {
-p5.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p5.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p6.on('ready', () => {
-p6.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p6.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p7.on('ready', () => {
-p7.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p7.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p8.on('ready', () => {
-p8.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p8.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p9.on('ready', () => {
-p9.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p9.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p10.on('ready', () => {
-p10.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p10.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p11.on('ready', () => {
-p11.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p11.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p12.on('ready', () => {
-p12.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p12.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p13.on('ready', () => {
-p13.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p13.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p14.on('ready', () => {
-p14.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p14.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p15.on('ready', () => {
-p15.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p15.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p16.on('ready', () => {
-p16.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p16.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p17.on('ready', () => {
-p17.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p17.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p18.on('ready', () => {
-p18.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p18.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p19.on('ready', () => {
-p19.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p19.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p20.on('ready', () => {
-p20.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p20.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p21.on('ready', () => {
-p21.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p21.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p22.on('ready', () => {
-p22.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p22.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p23.on('ready', () => {
-p23.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p23.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p24.on('ready', () => {
-p24.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p24.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p25.on('ready', () => {
-p25.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p25.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p26.on('ready', () => {
-p26.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p26.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p27.on('ready', () => {
-p27.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p27.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p28.on('ready', () => {
-p28.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p28.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p29.on('ready', () => {
-p29.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p29.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 p30.on('ready', () => {
-p30.user.setActivity("Meeeeeeeeercy.",{type: 'LISTENING'})
+p30.user.setActivity("bY ; MdAx7zx ..",{type: 'LISTENING'})
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on("message", message => {
